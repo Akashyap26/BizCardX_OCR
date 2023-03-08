@@ -1,3 +1,10 @@
+!pip install streamlit
+!pip install numpy
+!pip install easyocr
+!pip install PIL
+!pip install
+!pip install mysql-connector-python
+
 import streamlit as st
 import pandas as pd
 import numpy as np
