@@ -4,4 +4,4 @@ streamlit==1.17.0
 mysql-connector-python==8.0.30
 pillow==9.2.0
 torchvision==0.14.0
-easyocr==3.1.0
+easyocr==1.6.2
