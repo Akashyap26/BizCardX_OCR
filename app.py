@@ -13,12 +13,6 @@ from PIL import Image
 import mysql.connector
 
 reader = ocr.Reader(['en'],gpu=True)
-#sql connection
-host='root@localhost:3306'
-database='OCR'
-username='Upload_User'
-password='qwerty@26'
-
 
 st.title("BizCardX: Extracting Business Card Data with OCR")
 st.text("Welcome to my Optical Character Recognition application🤗\nEasyOCR, as the name suggests, is a Python package that allows computer vision\ndevelopers to effortlessly perform Optical Character Recognition.")
