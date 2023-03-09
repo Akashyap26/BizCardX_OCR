@@ -15,7 +15,7 @@ col2,col3 = st.columns(2)
 #================================================================================================================================================================================
 image = st.file_uploader(label="Upload here",type=['jpg','png','jpeg'])
 
-@st.cache_data
+#@st.cache_data
 def load_model(): 
     reader = ocr.Reader(['en'],model_storage_directory='.')
     return reader 
